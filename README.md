@@ -27,4 +27,9 @@ Display the results:
 "Maximum: maximum"
 "Minimum: minimum"
 "Interest on total at 20%: interest"
-End
+
+
+Changes:
+Added Scanner scanner = new Scanner(System.in); for user input.
+Prompted the user for vehicle details (make, model, color, and year) at appropriate places in the main method.
+Captured and used those inputs in the existing methods (addVehicle, updateVehicle, removeVehicle, searchVehicle).
